@@ -1,37 +1,37 @@
 {
-  "title": "PCI Compliance - API",
-  "name": "PCIComplianceAPI",
+  "title": "pci-compliance-api",
+  "name": "pci-compliance-api",
   "brand": "Fiserv",
-  "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
-  "solution": ["financial-institutions"],
-  "brandDescription": "REPLACE ME > Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
-  "apiVersions": [
-      {
-        "version": "1.0.0",
-        "versionType": "major",
-        "releaseNotesPath": "docs/release-notes/2022/march.md",
-        "apiSpecFileNames": ["openapi"]
-      }
+  "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Banking-Product-Cards/develop/assets/images/4_Cards-min%20copy.jpg",
+  "solution": [
+    "support"
+  ],
+  "brandDescription": "Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
+  "categories": [
+    {
+      "name": "businessTypes",
+      "value": "Business Types",
+      "subcategories": [
+        {
+          "name": "valueAddedServices",
+          "value": "Value Added Services"
+        }
+      ]
+    }
   ],
   "product": {
     "featured": true,
-    "logoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Portal_Logo.png",
-    "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-    "longDescription":"To onboard properly into the Developer Studi as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
-    "apiSpecification": "/v1/apis/PCIComplianceAPI",
-    "layout": "/v1/layouts/PCIComplianceAPI",
-    "documentation": "/v1/docs/PCIComplianceAPI",
-    "documenttree": "/v1/docs/PCIComplianceAPI",
-    "documenttreeV2": "/v2/docs/PCIComplianceAPI",
-    "docsCount": "/v2/docs/count/PCIComplianceAPI",
-    "sandbox": "/v1/sandboxrun/PCIComplianceAPI",
-    "accessConfig": "/v1/fileAccess/PCIComplianceAPI",
-    "assets": "/v1/assets/PCIComplianceAPI",    
-    "feature":[
-      {
-        "name": "sandBox",
-        "value": false
-      },
+    "logoURL": "",
+    "description": "Developer Studio Support pages",
+    "longDescription": "Developer Studio Support pages",
+    "layout": "/v1/layouts/pci-compliance-api",
+    "documentation": "/v1/docs/pci-compliance-api",
+    "documenttree": "/v1/docs/pci-compliance-api",
+    "documenttreeV2": "/v2/docs/pci-compliance-api",
+    "sandbox": "/v2/sandboxrun/pci-compliance-api",
+    "accessConfig": "/v1/fileAccess/pci-compliance-api",
+    "assets": "/v1/assets/pci-compliance-api",
+    "feature": [
       {
         "name": "plugins",
         "value": false
@@ -39,28 +39,26 @@
       {
         "name": "industryOptionsAPIExplorer",
         "value": false
-      },
-      {
-        "name": "editParameterAPIExplorer",
-        "value": false
       }
     ]
   },
-  "supportConfig": [{ 
-    "bug": {
-      "label": "bug,CommerceHub",
-      "template": "bug.md",
-      "assignees": "<github-id>"
-    },  
-    "feedback": {
-      "label": "feedback,CommerceHub",
-      "template": "feedback.md",
-      "assignees": "<github-id>"
-    },
-    "enhancement": {
-      "label": "enhancement,CommerceHub",
-      "template": "feature.md",
-      "assignees": "<github-id>"
+  "supportConfig": [
+    {
+      "bug": {
+        "label": "bug,SupportPages",
+        "template": "bug.md",
+        "assignees": "alok-kumar2/alok.kumar2@fiserv.com"
+      },
+      "feedback": {
+        "label": "feedback,SupportPages",
+        "template": "feedback.md",
+        "assignees": "alok-kumar2/alok.kumar2@fiserv.com"
+      },
+      "enhancement": {
+        "label": "enhancement,SupportPages",
+        "template": "feature.md",
+        "assignees": "alok-kumar2/alok.kumar2@fiserv.com"
+      }
     }
-  }]
+  ]
 }
